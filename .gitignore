@@ -44,3 +44,5 @@
 .bazelversion
 # User-specific .bazelrc
 user.bazelrc
+
+/artifact

@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
-    "theme": "Caffeine"
+    "theme": "Actual"
   },
   "basics": {
     "name": "Le Yang",
     "email": "le.yang@gmail.com",
     "phone": "(718) 751-5228",
-    "summary": "More than 17 years working with various information platforms, and 15 years working with the Allscripts Sunrise platform, including Clinical Manager, Emergency Care, eLink, SIM, and CDS; Core, interface, and customization team lead with major configuration and development experience; Implementation architect for workfow analysis and design, implementation, build, training, and activation support; Ability to create a safe and efficient patient care environment with process improvement and technology; Experience with business intelligence platforms and data analysis.",
+    "summary": "More than 17 years working with various information platforms, and 15 years working with the Allscripts Sunrise platform - Clinical Manager, Emergency Care, eLink, SIM, and CDS; Core, interface, and customization team lead with major configuration and development experience; Solution architect for workflow analysis and design, implementation, build, training, and activation support; Ability to create a safe and efficient patient care environment with process improvement and technology; Experience with business intelligence platforms and data analysis; Full-stack web developer",
     "location": {
       "address": "12150 Ams Run",
       "city": "Carmel",
@@ -17,46 +17,38 @@
   },
   "work": [
     {
-      "name": "Lake Regional Health System",
-      "position": "Independent Consultant",
-      "location": "Missouri",
-      "startDate": "2020-09-01",
-      "description": "Developed in-house complete downtime solution to supplement client's EHR (Meditech). The solution produces and distributes scheduled downtime reports to local machines in the event of system or network downtime. Tailored report showcase "
-
-    },
-    {
       "name": "University Hospitals",
       "position": "Custom Content Developer",
-      "location": "Ohio",
+      "location": "Cleveland, Ohio",
       "startDate": "2021-04-01",
       "endDate": "2023-01-01",
       "highlights": [
-        "Provided clinical decision support during the hospital's transition to another EHR",
+        "Provided clinical decision and custom content support during client's transition to another EHR.",
         "Developed process to allow persistent outcome tracking and handling. Improved component interaction.",
-        "Optimized application performance through code or process enhancements",
-        "Educate team members on best practice approaches for their assigned tasks",
+        "Optimized application performance through code or process enhancements.",
+        "Educated team members on best practice approaches for their assigned tasks.",
         "Participated in internal code review to improve code quality and to aid knowledge transfer.",
-        "Lead specialty projects through requirements gathering, coding, testing, and documentation."
+        "Led specialty projects through requirements gathering, coding, testing, and documentation."
       ]
     },
     {
       "name": "University of Kentucky Healthcare",
       "position": "MLM Writer",
-      "location": "Kentucky",
+      "location": "Lexington, Kentucky",
       "startDate": "2016-03-01",
       "endDate": "2021-06-01",
       "highlights": [
-        "Develop Medical Logic Modules (MLM) using Arden Syntax standards to supplement system logic including alerts and hard stops, data integration, result processing, order generation, enforcement of adherence to workflows and automation of document or order entry.",
-        "Plan, manage and lead the development, implementation, ongoing maintenance, testing, and support of the MLM enhancements to the enterprise clinical system.",
-        "Monitor the system on a daily basis to ensure data integrity, consistency and accuracy.",
-        "Work with other application team members to determine strategies for meeting service-specific needs through the implementation of MLM.",
-        "Integrate standard-based technologies within the Allscripts platform to deliver platform agnostic solutions to work orders and service requests."
+        "Developed Medical Logic Modules (MLM) using Arden Syntax standards to supplement system logic including alerts and hard stops, data integration, result processing, order generation, enforcement of adherence to workflows and automation of document or order entry.",
+        "Planned, managed, and led the development, implementation, ongoing maintenance, testing, and support of the MLM enhancements to the enterprise clinical system.",
+        "Monitored the system on daily to ensure data integrity, consistency, and accuracy.",
+        "Worked with other application team members to determine strategies for meeting service-specific needs through the implementation of MLM.",
+        "Integrated standard-based technologies within the Allscripts platform to deliver platform agnostic solutions to work orders and service requests."
       ]
     },
     {
       "name": "Jefferson Regional Medical Center",
-      "position": "Intergration Consultant",
-      "location": "Arkansas",
+      "position": "Integration Consultant",
+      "location": "Pine Bluff, Arkansas",
       "startDate": "2017-07-01",
       "endDate": "2018-11-01",
       "highlights": [
@@ -68,11 +60,11 @@
       ]
     },
     {
-      "name": "St. Vincent Health",
+      "name": "Ascension St. Vincent",
       "position": "Implementation Consultant",
-      "location": "Indiana",
-      "startDate": "2010-10",
-      "endDate": "2016-03",
+      "location": "Carmel, Indiana",
+      "startDate": "2010-10-01",
+      "endDate": "2016-03-01",
       "highlights": [
         "Developed custom tools and tabs leveraging Allscripts ObjectPlus platform. Executed full software development cycle from requirements gathering to testing to preparation of turn-over documentation including functionality overview, workflow diagrams, and technical references.",
         "Developed complex MLM for clinical decision support, including many automated processes. Drafted architectural design guidelines for MLM development to improve coherence among direct and indirect execution of multiple MLMs to aid with process efficiency and to reduce failure points.",
@@ -80,8 +72,8 @@
         "Developed custom scripts to automate repetitive tasks: standard policy maintenance, charge maintenance, design point documents (formatting), test scripts (formatting).",
         "Developed custom queries for custom and ad hoc reporting, quality assurance, and feasibility analysis.",
         "Optimized stored procedures to improve query efficiency and accuracy.",
-        "Lead projects to implement Sunrise platform to network hospitals to enable majority system function (CPOE, Pharmacy, Emergency Care, etc.) and to meet Meaningful Use requirements. Conducted future state analysis and addressed workflow gaps.",
-        "Lead system upgrade projects. Performed impact analysis and lead design sessions, assisting end users with decisions on new functionality.",
+        "Led projects to implement Sunrise platform to network hospitals to enable majority system function (CPOE, Pharmacy, Emergency Care, etc.) and to meet Meaningful Use requirements. Conducted future state analysis and addressed workflow gaps.",
+        "Led system upgrade projects. Performed impact analysis and lead design sessions, assisting end users with decisions on new functionality.",
         "Managed and supported system integration for Nutrition Services. Developed workflow recommendation and maintained related configuration items.",
         "Supported activation of various projects including big-bang CPOE rollout and system upgrades.",
         "Documented and categorized model system workflows, processes, and configured options.",
@@ -91,7 +83,7 @@
     {
       "name": "Bronx-Lebanon Hospital",
       "position": "Sr. Clinical Application Analyst",
-      "location": "New York City",
+      "location": "New York City, New York",
       "startDate": "2006-07-01",
       "endDate": "2009-05-01",
       "highlights": [
@@ -134,52 +126,71 @@
     {
       "name": "Core",
       "keywords": [
-        "project management",
-        "process review and improvement",
-        "critical thinker",
-        "knowledge engineering",
+        "critical thinking",
         "proven track record of project delivery results",
         "attention to detail",
         "perform well under pressure",
-        "team leadership"
+        "team leadership",
+        "communication and interpersonal skills"
       ]
     },
     {
-      "name": "Web Development",
+      "name": "Technical",
       "keywords": [
-        "JavaScript",
-        "TypeScript",
-        "HTML",
-        "CSS",
+        "knowledge engineering",
+        "project management",
+        "process review and improvement",
+        "data processing, transformation, and exchange",
+        "test planning and execution",
+        "Sunrise Clinical Manager 18.4 training completed",
+        "version control practices",
+        "cross domain knowledge"
+      ]
+    },
+    {
+      "name": "Frameworks and Standards",
+      "keywords": [
+        "Health Level 7 (HL7)",
         "Angular",
         "GraphQL",
-        "OData"
+        "OData",
+        "eLink",
+        "Node.js",
+        "Electron",
+        "Bazel"
       ]
     },
     {
       "name": "Data Analytics",
       "keywords": [
         "SSIS/SSRS",
-        "XML/XSLT",
-        "T-SQL",
-        "HL7"
+        "XML/XSLT"
       ]
     },
     {
-      "name": "General Computing",
+      "name": "Programming",
       "keywords": [
         "Arden",
-        "PowerShell"
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "PowerShell",
+        "XML",
+        "XSLT",
+        "Transact-SQL",
+        "LaTeX"
       ]
     }
   ],
   "projects": [
     {
-      "name": "DocView: Phase I",
+      "name": "DocView: Downtime",
       "description": "",
       "highlights": [
         "Downtime solution developed from scratch to tailor-fit specific client requirements.",
-        "Leverged proven technology and frameworks--including many open-source projects--to maximize longevity and cost "
+        "Leveraged proven technology and frameworks--including many open-source projects--to maximize longevity and cost ",
+        "Aggregate clinical data from multiple EHR modules to allow quick, accurate, and comprehensive view of patient clinical conditions by providers.",
+        "Scheduled delivery of downtime data ensures minimal interruption to patient care when network connectivity is limited."
       ],
       "keywords": [
         "Angular",
@@ -214,7 +225,7 @@
       "name": "Integration: Soarian Financials",
       "description": "",
       "highlights": [
-        "Bi-directional ADT, scheduling, and Financial interfaces between Soarian Financials and Sunrise Clinical Manager.",
+        "Bi-directional ADT, scheduling, and financial interfaces between Soarian Financials and Sunrise Clinical Manager.",
         "Custom adapter to periodically query and generate batch charges.",
         "Automated charge reconciliation and error reporting.",
         "Update DRG and expected length of stay from interim coding."
@@ -318,8 +329,12 @@
       "endDate": "2015-10-01"
     },
     {
+      "name": "Sunrise Clinical Manager Implementation at St. Vincent Dunn",
+      "endDate": "2015-07-01"
+    },
+    {
       "name": "Sunrise Clinical Manager Implementation at The Heart Center of Indiana",
-      "endDate": "2015-10-01"
+      "endDate": "2014-09-01"
     },
     {
       "name": "Sunrise Clinical Manager Implementation at St. Mary's Health System",
@@ -330,7 +345,7 @@
         "On time project implementation to allow successful attestation of Meaningful Use Stage I."
       ],
       "keywords": [],
-      "endDate": "2015-10-01"
+      "endDate": "2013-08-01"
     }
   ]
 }
