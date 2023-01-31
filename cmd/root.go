@@ -61,7 +61,7 @@ to quickly create a Cobra application.`,
 		if outputFile == "" {
 			wd, _ := os.Getwd()
 			base := filepath.Base(templateFile)
-			outputFile = filepath.Join(wd, strings.TrimSuffix(base, filepath.Ext((base))))
+			outputFile = filepath.Join(wd, "outputs", strings.TrimSuffix(base, filepath.Ext((base))))
 		}
 		return nil
 	},
