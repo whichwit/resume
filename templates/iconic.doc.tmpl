@@ -2167,25 +2167,43 @@
 							<w:pPr>
 								<w:pStyle w:val="Heading2"/>
 								<w:spacing w:line="240" w:line-rule="auto"/>
-							</w:pPr>							
+							</w:pPr>
 							{{ if .Name }}
 							<w:r wsp:rsidRPr="00235936">
-								<w:t>, {{ html .Name }}</w:t>
+								<w:t>{{ html .Name }} </w:t>
 							</w:r>
 							{{ end }}
 							{{ if .EndDate }}
 							<w:r wsp:rsidRPr="00235936">
-								<w:t>{{ html .EndDate | MMYYYY }}</w:t>
+								<w:t>| {{ html .EndDate | MMMMYYYY }}</w:t>
 							</w:r>
 							{{ end }}
 						</w:p>
-						{{ if .Summary }}
+						{{ if .Description }}
 						<w:p wsp:rsidR="005F4D59" wsp:rsidRPr="00235936" wsp:rsidRDefault="005F4D59" wsp:rsidP="00235936">
 							<w:pPr>
 								<w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
 							</w:pPr>
 							<w:r wsp:rsidRPr="00235936">
-								<w:t>{{ html .Summary }}</w:t>
+								<w:t>{{ html .Description }}</w:t>
+							</w:r>
+						</w:p>
+						{{ end }}
+						{{ range .Highlights }}
+						<w:p wsp:rsidR="00FD4449" wsp:rsidRPr="00235936" wsp:rsidRDefault="00FD4449" wsp:rsidP="00235936">
+							<w:pPr>
+								<w:pStyle w:val="ListParagraph"/>
+								<w:listPr>
+									<w:ilvl w:val="0"/>
+									<w:ilfo w:val="8"/>
+									<wx:t wx:val="•"/>
+									<wx:font wx:val="Calibri"/>
+								</w:listPr>
+								<w:spacing w:after="0" w:line="240" w:line-rule="auto"/>
+								<w:ind w:left="337" w:hanging="337"/>
+							</w:pPr>
+							<w:r wsp:rsidRPr="00235936">
+								<w:t>{{ html . }}</w:t>
 							</w:r>
 						</w:p>
 						{{ end }}
